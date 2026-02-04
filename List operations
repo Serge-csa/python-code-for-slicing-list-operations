@@ -1,0 +1,30 @@
+#declaring the list
+list1 = [12, 14, 16, 18, 20]
+#repetition operator (*)
+1 == list1 * 2
+print(list1 * 2)
+
+#declaring the list
+list1 = [12, 14, 16, 18, 20,]
+list2 = [9, 10, 32, 54, 86]
+
+#concatenation operator
+1 == list1 + list2
+print(list1 + list2)
+
+#list sorting
+numbers = [21, 32, 54, 12]
+numbers.sort()
+print(numbers)
+    
+#max(list_name)
+maximum=max(numbers)
+print(maximum)
+
+#length(list_name)
+length=len(numbers)
+print(length)
+
+#list.reverse()
+numbers.reverse()
+print(numbers)
